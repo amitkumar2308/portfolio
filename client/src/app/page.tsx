@@ -15,7 +15,7 @@ const LandingPage: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTitle((prevTitle) => (prevTitle + 1) % titles.length);
-    }, 3000); // Change title every 3 seconds
+    }, 1000); // Change title every 3 seconds
 
     return () => clearInterval(interval); // Clear interval on component unmount
   }, []);
