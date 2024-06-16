@@ -1,13 +1,13 @@
 // components/ProjectCard.tsx
 
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { GitHub, Language } from '@mui/icons-material'; // Importing Material-UI icons
 
 interface ProjectCardProps {
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrl: StaticImageData;
   githubLink: string;
   liveLink: string;
 }
