@@ -50,7 +50,7 @@ const LandingPage: React.FC = () => {
               {titles[currentTitle]}
             </p>
             <p className="text-lg text-gray-600 mb-6 text-justify">
-              Passionate about building innovative solutions and exploring new technologies. Let's dive into the world of software development together.
+              Passionate about building innovative solutions and exploring new technologies. Let&apos;s dive into the world of software development together.
             </p>
             <a
               href="mailto:your_email@gmail.com"
